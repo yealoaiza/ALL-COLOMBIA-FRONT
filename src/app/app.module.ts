@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchComponent } from './components/search/search.component';
 import { FooterComponent } from './components/home/footer/footer.component';
 import { HeaderComponent } from './components/home/header/header.component';
+import { CategoriesComponent } from './components/products/categories/categories.component';
+import { ProductComponent } from './components/offers/product/product.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { HeaderComponent } from './components/home/header/header.component';
     HomeComponent,
     SearchComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    CategoriesComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
