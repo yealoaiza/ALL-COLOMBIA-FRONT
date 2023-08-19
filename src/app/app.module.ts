@@ -8,8 +8,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchComponent } from './components/search/search.component';
 import { FooterComponent } from './components/home/footer/footer.component';
 import { HeaderComponent } from './components/home/header/header.component';
-import { CategoriesComponent } from './components/products/categories/categories.component';
-import { ProductComponent } from './components/offers/product/product.component';
+import { CategoriesComponent } from './components/categories/categories.component';
+import { SalesComponent } from './components/offers/sales/sales.component';
+import { BodyHomeComponent } from './components/core-bodys/body-home/body-home.component';
+import { BannerMiniComponent } from './components/banners/banner-mini/banner-mini.component';
+import { BannerMarketingComponent } from './components/banners/banner-marketing/banner-marketing.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { ProductComponent } from './components/offers/product/product.component'
     FooterComponent,
     HeaderComponent,
     CategoriesComponent,
-    ProductComponent
+    SalesComponent,
+    BodyHomeComponent,
+    BannerMiniComponent,
+    BannerMarketingComponent
   ],
   imports: [
     BrowserModule,

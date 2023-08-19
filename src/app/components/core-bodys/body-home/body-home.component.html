@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">         
+            <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                    <app-categories></app-categories>                    
+                </a>
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item">
+                <app-banner-marketing></app-banner-marketing>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">         
+                        <li class="nav-item">
+                            <app-sales></app-sales>
+                        </li>
+                        <li class="nav-item">
+                            <app-banner-mini></app-banner-mini>
+                        </li>
+                        <li class="nav-item">
+                            <!--<app-sales></app-sales>  Construir a futuro-->
+                        </li>
+                    </ul>
+                </div>   
+            </li>
+                  
+        </ul>
+    </div>
+</nav>
